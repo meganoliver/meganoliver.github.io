@@ -189,14 +189,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fc5130;
+  background-color: #D741A7;
   color: #FFFAFF;
   font: "Josefin Sans", sans-serif;
   text-align: center;
   font-weight: bold;
   margin: 15px;
-  border-radius: 5px;
-  width: 100%; }
+  border-radius: 5px; }
   @media (min-width: 1024px) {
     .sites {
       width: 30%;
@@ -215,15 +214,50 @@ header {
   padding: 0 10px; }
 
 .emp-dir {
-  background: linear-gradient(to top, rgba(252, 81, 48, 0.8), rgba(252, 81, 48, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
 
 .dash {
-  background: linear-gradient(to top, rgba(252, 81, 48, 0.8), rgba(252, 81, 48, 0.8)), url("../img/dash.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/dash.jpg") no-repeat center center; }
 
 .video {
-  background: linear-gradient(to top, rgba(252, 81, 48, 0.8), rgba(252, 81, 48, 0.8)), url("../img/video.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/video.jpg") no-repeat center center; }
 
 .photo-gallery {
-  background: linear-gradient(to top, rgba(252, 81, 48, 0.8), rgba(252, 81, 48, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
+
+#contact {
+  background: linear-gradient(to top, #FFFAFF, #fc5130);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  height: 500px; }
+
+#icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px; }
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; }
+  .contact-link:hover {
+    fill: #D741A7;
+    transform: scale(1.2);
+    transition: all 1s; }
+
+.contact-icon {
+  width: 35px;
+  height: 35px;
+  margin: 10px; }
+
+.contact-span {
+  color: #303036;
+  margin-left: 20px;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=application.css.map */
