@@ -102,17 +102,18 @@ header {
     #nav {
       flex-direction: row;
       font-size: 2.5em; } }
-  #nav a {
-    text-decoration: none;
+  #nav li {
+    list-style: none;
     color: #303036;
     margin: 0 15px;
     margin: 10px 0;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
     @media (min-width: 760px) {
-      #nav a {
+      #nav li {
         margin: 0 30px;
         padding: 50px 0; } }
-    #nav a:hover {
+    #nav li:hover {
       border-bottom: 1px solid #303036; }
 
 .skills {
@@ -198,7 +199,7 @@ header {
   align-items: center;
   background-color: #D741A7;
   color: #FFFAFF;
-  font: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-weight: bold;
   margin: 15px;
@@ -237,6 +238,9 @@ header {
 
 .photo-gallery {
   background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
+
+.svg-update {
+  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
 
 #contact {
   background: linear-gradient(to top, #FFFAFF, #fc5130);
