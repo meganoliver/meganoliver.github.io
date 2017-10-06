@@ -229,22 +229,23 @@ header {
   background: linear-gradient(to top, #FFFAFF, #fc5130);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
   height: 500px; }
+  #contact h1 {
+    margin-top: 15px; }
 
 #icons {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 50px; }
+  justify-content: space-around; }
 
 .contact-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 10px 0; }
   .contact-link:hover {
     fill: #D741A7;
     transform: scale(1.2);
