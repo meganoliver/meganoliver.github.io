@@ -24,12 +24,12 @@ p {
 
 .show {
   opacity: 1;
-  transform: translateY(-100px);
+  height: auto;
+  transform: translateY(-150px);
   transition: opacity 1s ease-in; }
 
 .hide {
   margin: 0;
-  height: 0;
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out; }
@@ -45,16 +45,9 @@ p {
   0% {
     transform: translateY(3px); }
   50% {
-    transform: translateY(-50px); }
+    transform: translateY(-75px); }
   100% {
-    transform: translateY(-100px); } }
-@keyframes grow {
-  0% {
-    transform: scale(0); }
-  50% {
-    transform: scale(0.5); }
-  100% {
-    transform: scale(1); } }
+    transform: translateY(-150px); } }
 header {
   height: 100%;
   font-family: "Josefin Slab", serif;
@@ -69,38 +62,49 @@ header {
 
 .name {
   font-size: 3em;
-  margin-top: 15px; }
+  margin: 0; }
+  @media (min-width: 760px) {
+    .name {
+      font-size: 5em; } }
 
 .title {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin: 0; }
+  @media (min-width: 760px) {
+    .title {
+      font-size: 2.5em; } }
 
 #menu {
   padding: 10px;
   color: #303036;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Slab", serif;
   border: 1.5px solid black;
   cursor: pointer;
   margin: 0; }
 
+@media (min-width: 760px) {
+  font-size: 2.5em; }
 #nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
-  margin: 100px 0 0; }
+  margin: 0;
+  height: 0; }
   @media (min-width: 760px) {
     #nav {
-      flex-direction: row; } }
+      flex-direction: row;
+      font-size: 2.5em; } }
   #nav a {
     text-decoration: none;
-    font-size: 2em;
     color: #303036;
-    margin: 5px 15px;
-    padding: 10px 0;
+    margin: 0 15px;
+    margin: 10px 0;
     text-align: center; }
     @media (min-width: 760px) {
       #nav a {
-        margin: 30px; } }
+        margin: 0 30px;
+        padding: 50px 0; } }
     #nav a:hover {
       border-bottom: 1px solid #303036; }
 
@@ -108,7 +112,7 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   height: auto; }
 
 .languages {
