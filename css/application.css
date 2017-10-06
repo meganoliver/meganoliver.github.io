@@ -28,6 +28,8 @@ p {
   transition: opacity 1s ease-in; }
 
 .hide {
+  margin: 0;
+  height: 0;
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out; }
@@ -62,10 +64,12 @@ header {
   justify-content: space-around;
   color: #303036;
   background: linear-gradient(to top, #FFFAFF, #76c4e0);
-  margin: 0 5px; }
+  margin: 0 5px;
+  padding-bottom: 25px; }
 
 .name {
-  font-size: 3em; }
+  font-size: 3em;
+  margin-top: 15px; }
 
 .title {
   font-size: 1.5em; }
@@ -76,14 +80,14 @@ header {
   font-family: "Josefin Sans", sans-serif;
   border: 1.5px solid black;
   cursor: pointer;
-  margin: 150px 0 0; }
+  margin: 0; }
 
 #nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
-  margin: .100px 0 0; }
+  margin: 100px 0 0; }
   @media (min-width: 760px) {
     #nav {
       flex-direction: row; } }
@@ -91,8 +95,8 @@ header {
     text-decoration: none;
     font-size: 2em;
     color: #303036;
-    margin: 15px;
-    padding: 10px 15px;
+    margin: 5px 15px;
+    padding: 10px 0;
     text-align: center; }
     @media (min-width: 760px) {
       #nav a {
@@ -102,15 +106,17 @@ header {
 
 .skills {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; }
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  height: auto; }
 
 .languages {
   background-color: #fc5130;
   color: #303036;
   border-radius: 5px;
   padding: 10px;
-  margin: 25px; }
+  margin: 15px; }
   .languages:hover {
     animation: bounce 1s ease-out backwards; }
 
