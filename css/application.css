@@ -20,10 +20,10 @@ p {
   border: 2px solid #303036;
   padding: 5px;
   margin: 30px 0;
-  z-index: 20; }
+  z-index: 20;
+  transition: 1s; }
   .home-btn:hover {
-    transform: scale(1.3);
-    transition: 1s; }
+    transform: scale(1.3); }
 
 .show {
   opacity: 1;
@@ -59,7 +59,7 @@ header {
   align-items: center;
   justify-content: space-around;
   color: #303036;
-  background: linear-gradient(to top, #FFFAFF, #76c4e0);
+  background: linear-gradient(to top, #FFFAFF, #D741A7);
   margin: 0 5px;
   padding-bottom: 25px; }
 
@@ -83,13 +83,13 @@ header {
   font-family: "Josefin Slab", serif;
   border: 1.5px solid black;
   cursor: pointer;
-  margin: 0; }
+  margin: 0;
+  transition: 1s; }
   @media (min-width: 760px) {
     #menu {
       font-size: 2.5em; } }
   #menu:hover {
-    transform: scale(1.3);
-    transition: 1s; }
+    transform: scale(1.3); }
 
 #nav {
   display: flex;
@@ -124,7 +124,7 @@ header {
   height: auto; }
 
 .languages {
-  background-color: #fc5130;
+  background-color: #76c4e0;
   color: #303036;
   border-radius: 5px;
   padding: 10px;
@@ -159,13 +159,13 @@ header {
   border-radius: 50%;
   width: 100px;
   margin: 15px 0;
-  display: inline-block; }
+  display: inline-block;
+  transition: .8s; }
   #profile-pic:hover {
-    transform: scale(1.2);
-    transition: .8s; }
+    transform: scale(1.2); }
 
 #projects {
-  background: linear-gradient(to top, #FFFAFF, #76c4e0);
+  background: linear-gradient(to top, #FFFAFF, #D741A7);
   display: flex;
   flex-direction: column;
   margin: 0 5px; }
@@ -197,8 +197,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #D741A7;
-  color: #FFFAFF;
+  background-color: #76c4e0;
+  color: #303036;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-weight: bold;
@@ -211,36 +211,42 @@ header {
 
 .visit {
   border-radius: 7px;
-  border: 3px solid #FFFAFF;
+  border: 3px solid #303036;
   text-align: center;
   text-decoration: none;
-  color: #FFFAFF;
+  color: #303036;
   margin: 15px 0;
-  padding: 8px; }
+  padding: 8px;
+  transition: all 1s; }
   .visit:hover {
-    color: #303036;
+    color: #D741A7;
     font-weight: bold;
-    border: 5px solid #303036;
-    transform: scale(1.3);
-    transition: all 1s; }
+    border: 5px solid #D741A7;
+    transform: scale(1.3); }
+
+.git-link {
+  transition: all 1s; }
+  .git-link:hover {
+    fill: #D741A7;
+    transform: scale(1.2); }
 
 .site-description {
   padding: 0 10px; }
 
 .emp-dir {
-  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
 
 .dash {
-  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/dash.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/dash.jpg") no-repeat center center; }
 
 .video {
-  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/video.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/video.jpg") no-repeat center center; }
 
 .photo-gallery {
-  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
 
 .svg-update {
-  background: linear-gradient(to top, rgba(215, 65, 167, 0.8), rgba(215, 65, 167, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
 
 #contact {
   background: linear-gradient(to top, #FFFAFF, #fc5130);
@@ -265,11 +271,11 @@ header {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  margin: 10px 0; }
+  margin: 10px 0;
+  transition: all 1s; }
   .contact-link:hover {
-    fill: #D741A7;
-    transform: scale(1.2);
-    transition: all 1s; }
+    fill: #76c4e0;
+    transform: scale(1.2); }
 
 .contact-icon {
   width: 35px;
