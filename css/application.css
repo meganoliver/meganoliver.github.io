@@ -59,7 +59,7 @@ header {
   align-items: center;
   justify-content: space-around;
   color: #303036;
-  background: linear-gradient(to top, #FFFAFF, #D741A7);
+  background: linear-gradient(to top, #FFFAFF, #C6C5B9);
   margin: 0 5px;
   padding-bottom: 25px; }
 
@@ -124,7 +124,7 @@ header {
   height: auto; }
 
 .languages {
-  background-color: #76c4e0;
+  background-color: #bd90c9;
   color: #303036;
   border-radius: 5px;
   padding: 10px;
@@ -136,7 +136,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to top, #FFFAFF, #fc5130);
+  background: linear-gradient(to top, #FFFAFF, #8F9491);
   color: #303036;
   font-family: "Josefin Sans", sans-serif;
   margin: 0 5px;
@@ -165,7 +165,7 @@ header {
     transform: scale(1.2); }
 
 #projects {
-  background: linear-gradient(to top, #FFFAFF, #D741A7);
+  background: linear-gradient(to top, #FFFAFF, #C6C5B9);
   display: flex;
   flex-direction: column;
   margin: 0 5px; }
@@ -197,7 +197,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #76c4e0;
+  background-color: #bd90c9;
   color: #303036;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -219,37 +219,37 @@ header {
   padding: 8px;
   transition: all 1s; }
   .visit:hover {
-    color: #D741A7;
+    color: #C6C5B9;
     font-weight: bold;
-    border: 5px solid #D741A7;
+    border: 5px solid #C6C5B9;
     transform: scale(1.3); }
 
 .git-link {
   transition: all 1s; }
   .git-link:hover {
-    fill: #D741A7;
+    fill: #C6C5B9;
     transform: scale(1.2); }
 
 .site-description {
   padding: 0 10px; }
 
 .emp-dir {
-  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/emp-dir.jpg") no-repeat center center; }
 
 .dash {
-  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/dash.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/dash.jpg") no-repeat center center; }
 
 .video {
-  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/video.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/video.jpg") no-repeat center center; }
 
 .photo-gallery {
-  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
 
 .svg-update {
-  background: linear-gradient(to top, rgba(118, 196, 224, 0.8), rgba(118, 196, 255, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
 
 #contact {
-  background: linear-gradient(to top, #FFFAFF, #fc5130);
+  background: linear-gradient(to top, #FFFAFF, #8F9491);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -274,7 +274,7 @@ header {
   margin: 10px 0;
   transition: all 1s; }
   .contact-link:hover {
-    fill: #76c4e0;
+    fill: #bd90c9;
     transform: scale(1.2); }
 
 .contact-icon {
