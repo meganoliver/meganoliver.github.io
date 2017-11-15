@@ -149,7 +149,9 @@ header {
     padding: 5px 10px;
     margin: 0;
     display: inline-block;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: lighter; }
     #about p:first-child {
       padding-top: 90px; }
   @media (min-width: 1024px) {
@@ -178,6 +180,7 @@ header {
   align-self: left;
   padding: 10px;
   font-family: "Josefin Slab", serif;
+  font-weight: bold;
   border-top: 1px solid black;
   border-bottom: 1px solid black; }
 
@@ -216,8 +219,10 @@ header {
   .project-title p {
     margin: 5px 10px 40px;
     padding: 0 30px;
-    font-size: 1.5em;
-    line-height: 1.5em; }
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: lighter; }
 
 #portfolio {
   flex-direction: column;
