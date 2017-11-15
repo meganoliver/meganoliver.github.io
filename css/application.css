@@ -60,8 +60,7 @@ header {
   justify-content: space-around;
   color: #303036;
   background-color: #C6C5B9;
-  margin: 0 5px;
-  padding-bottom: 25px; }
+  margin: 0 5px; }
 
 .name {
   font-size: 3em;
@@ -76,6 +75,9 @@ header {
   @media (min-width: 760px) {
     .title {
       font-size: 2.5em; } }
+
+.description {
+  margin: 0; }
 
 #menu {
   padding: 10px;
@@ -134,57 +136,93 @@ header {
 
 #about {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #C6C5B9;
   color: #303036;
   font-family: "Josefin Sans", sans-serif;
-  margin: 0 5px;
+  margin: -5 5px;
+  padding: 30px 0;
   overflow: scroll; }
   #about p {
     font-size: 1.2em;
     padding: 5px 10px;
-    margin: 0; }
+    margin: 0;
+    display: inline-block;
+    line-height: 1.5em; }
+    #about p:first-child {
+      padding-top: 90px; }
   @media (min-width: 1024px) {
     #about {
       position: relative; } }
 
+.title-pic-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%; }
+
+.about-div {
+  float: right;
+  width: 50%;
+  padding-right: 25px;
+  align-items: center; }
+  .about-div a {
+    margin-top: 20px; }
+
 .main-title {
-  padding: 10px 0 5px 10px;
-  font-size: 2em;
-  text-decoration: underline;
-  margin: 0; }
+  display: block;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 50px 0;
+  align-self: left;
+  padding: 10px;
+  font-family: "Josefin Slab", serif;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
 
 #profile-pic {
+  align-self: center;
   border-radius: 50%;
-  width: 100px;
-  margin: 15px 0;
-  display: inline-block;
-  transition: .8s; }
+  width: 250px;
+  transition: .8s;
+  margin-bottom: 100px; }
   #profile-pic:hover {
     transform: scale(1.2); }
 
+#about-btn {
+  width: fit-content;
+  margin: 30px auto; }
+
 #projects {
-  background: linear-gradient(to top, #FFFAFF, #C6C5B9);
+  background: #C6C5B9;
   display: flex;
   flex-direction: column;
-  margin: 0 5px; }
+  margin: 0 5px;
+  padding-top: 45px; }
   @media (min-width: 1024px) {
     #projects {
       position: relative; } }
 
 .project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: "Josefin Slab", serif;
   color: #303036;
   text-align: center;
   height: 300px; }
   .project-title p {
-    margin: 30px 10px 60px;
-    font-size: 1.5em; }
+    margin: 5px 10px 40px;
+    padding: 0 30px;
+    font-size: 1.5em;
+    line-height: 1.5em; }
 
 #portfolio {
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-top: 50px; }
   @media (min-width: 1024px) {
     #portfolio {
       display: flex;
@@ -247,6 +285,9 @@ header {
 
 .svg-update {
   background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
+
+.math-flash {
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/math_flash.png") no-repeat center center; }
 
 #contact {
   background: linear-gradient(to top, #FFFAFF, #8F9491);
