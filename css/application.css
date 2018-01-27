@@ -288,8 +288,8 @@ header {
 .photo-gallery {
   background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/gallery.jpg") no-repeat center center; }
 
-.svg-update {
-  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/svg-update.jpg") no-repeat center center; }
+.tic-tac-toe {
+  background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/tic-tac-toe.png") no-repeat center center; }
 
 .math-flash {
   background: linear-gradient(to top, rgba(189, 144, 201, 0.8), rgba(189, 144, 201, 0.8)), url("../img/math_flash.png") no-repeat center center; }
